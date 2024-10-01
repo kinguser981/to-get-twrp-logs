@@ -11,7 +11,6 @@ Advanced -> Copy Log -> Swipe to copy log to default storage
 adb shell dmesg > dmesg.log
 ```
 OR
-#
 Advanced -> Copy Log -> check "Include kernel log" -> Swipe to copy log to default storage
 #
 # logcat
@@ -19,6 +18,5 @@ Advanced -> Copy Log -> check "Include kernel log" -> Swipe to copy log to defau
 adb logcat -d > logcat.txt
 ```
 OR
-#
 Advanced -> Copy Log -> check "Include Logcat" -> Swipe to copy log to default storage
 #
